@@ -68,6 +68,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        lotify=lotifyCli:send_message
+        lotify=lotify.lotifyCli:send_message
     '''
 )
